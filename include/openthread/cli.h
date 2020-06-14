@@ -52,7 +52,7 @@ extern "C" {
 typedef struct otCliCommand
 {
     const char *mName;                        ///< A pointer to the command string.
-    void (*mCommand)(int argc, char *argv[]); ///< A function pointer to process the command.
+    void (*mCommand)(uint8_t argc, char *argv[]); ///< A function pointer to process the command.
 } otCliCommand;
 
 /**
